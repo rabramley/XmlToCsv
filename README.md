@@ -28,3 +28,7 @@ Then install lxml
 The project contains a `data` folder that's contents are never checked in.
 This is to protect the potentially sensitive data from accidentally being 
 uploaded to the internet.
+
+## Running
+
+    python xmlToCsv.py data/example.XML -t transform/example.xslt > data/example.csv
