@@ -6,7 +6,7 @@
 	</xsl:template>
 
 	<xsl:template name="header">
-		<xsl:text>"interval_id",</xsl:text>
+		<xsl:text>"Interval ID",</xsl:text>
 		<xsl:text>"volunteer_status",</xsl:text>
 		<xsl:text>"ethnicity",</xsl:text>
 		<xsl:text>"abo_group",</xsl:text>
