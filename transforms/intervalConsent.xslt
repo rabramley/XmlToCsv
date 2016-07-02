@@ -6,7 +6,7 @@
 	</xsl:template>
 
 	<xsl:template name="header">
-		<xsl:text>"Interval ID",</xsl:text>
+		<xsl:text>"CIVI_FIELD_INTERVAL_ID",</xsl:text>
 		<xsl:text>"volunteer_status",</xsl:text>
 		<xsl:text>"birth_date",</xsl:text>
 		<xsl:text>"gender",</xsl:text>
@@ -25,9 +25,14 @@
     	<xsl:text>"phone_type",</xsl:text>
     	<xsl:text>"email_type",</xsl:text>
     	<xsl:text>"email",</xsl:text>
-    	<xsl:text>"Consent Date",</xsl:text>
-    	<xsl:text>"Consent Version",</xsl:text>
-    	<xsl:text>"Consent Leaflet"</xsl:text>
+    	<xsl:text>"CIVI_FIELD_INTERVAL_CONSENT_DATE",</xsl:text>
+    	<xsl:text>"CIVI_FIELD_INTERVAL_CONSENT_VERSION",</xsl:text>
+    	<xsl:text>"CIVI_FIELD_INTERVAL_CONSENT_LEAFLET",</xsl:text>
+        <xsl:text>"NHS_number",</xsl:text>
+        <xsl:text>"UHL_S_number",</xsl:text>
+        <xsl:text>"is_deceased",</xsl:text>
+        <xsl:text>"deceased_date",</xsl:text>
+        <xsl:text>"case_status"</xsl:text>
 
 		<xsl:text>&#xa;</xsl:text>
 	</xsl:template>
@@ -145,6 +150,11 @@
         <xsl:text>"</xsl:text>
         <xsl:value-of select="consent/information_leaflet_version" />
         <xsl:text>"</xsl:text>
+        <xsl:text>,</xsl:text>
+        <xsl:text>,</xsl:text>
+        <xsl:text>,</xsl:text>
+        <xsl:text>,</xsl:text>
+        <xsl:text>,</xsl:text>
 
         <xsl:text>&#xa;</xsl:text>
 	</xsl:template>
