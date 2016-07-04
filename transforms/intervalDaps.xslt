@@ -32,13 +32,11 @@
         <xsl:value-of select="surname" />
         <xsl:text>"</xsl:text>
         <xsl:text>,</xsl:text>
-        <xsl:text>"</xsl:text>
         <xsl:value-of select="substring(dob, 1,4)" />
         <xsl:text>-</xsl:text>
         <xsl:value-of select="substring(dob, 6,2)" />
         <xsl:text>-</xsl:text>
         <xsl:value-of select="substring(dob, 9,2)" />
-        <xsl:text>"</xsl:text>
         <xsl:text>,</xsl:text>
         <xsl:text>"</xsl:text>
         <xsl:value-of select="gender" />
