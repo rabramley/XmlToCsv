@@ -34,7 +34,7 @@
         <xsl:text>"deceased_date",</xsl:text>
         <xsl:text>"case_status"</xsl:text>
 
-		<xsl:text>&#xa;</xsl:text>
+		<xsl:text>&#13;&#10;</xsl:text>
 	</xsl:template>
 
 	<xsl:template match="participant">
@@ -156,7 +156,7 @@
         <xsl:text>,</xsl:text>
         <xsl:text>,</xsl:text>
 
-        <xsl:text>&#xa;</xsl:text>
+        <xsl:text>&#13;&#10;</xsl:text>
 	</xsl:template>
 
 </xsl:stylesheet>

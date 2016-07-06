@@ -20,7 +20,7 @@
     	<xsl:text>"ADDRESS5",</xsl:text>
     	<xsl:text>"LOCAL_ID"</xsl:text>
 
-		<xsl:text>&#xa;</xsl:text>
+        <xsl:text>&#13;&#10;</xsl:text>
 	</xsl:template>
 
 	<xsl:template match="participant">
@@ -76,7 +76,7 @@
         <xsl:value-of select="interval_id" />
         <xsl:text>"</xsl:text>
 
-        <xsl:text>&#xa;</xsl:text>
+        <xsl:text>&#13;&#10;</xsl:text>
 	</xsl:template>
 
 </xsl:stylesheet>

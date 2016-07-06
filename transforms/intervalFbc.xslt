@@ -25,7 +25,7 @@
     	<xsl:text>"eos_10_9_l",</xsl:text>
     	<xsl:text>"baso_10_9_l",</xsl:text>
 
-		<xsl:text>&#xa;</xsl:text>
+        <xsl:text>&#13;&#10;</xsl:text>
 	</xsl:template>
 
 	<xsl:template match="participant">
@@ -66,7 +66,7 @@
         <xsl:value-of select="fbc/baso_10_9_l" />
         <xsl:text>,</xsl:text>
 
-        <xsl:text>&#xa;</xsl:text>
+        <xsl:text>&#13;&#10;</xsl:text>
 	</xsl:template>
 
 </xsl:stylesheet>
